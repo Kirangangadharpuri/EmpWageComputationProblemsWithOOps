@@ -7,7 +7,7 @@ namespace EmpWageComputationProblemWithOOP
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the employee wage problems");
-            CompanyEmpWage[] Company = new CompanyEmpWage[5];
+            ParentComputeEmpWage[] Company = new ParentComputeEmpWage[5];
 
             Console.WriteLine("Welcome to Employee Wage Computation Program On Master Branch");
             Console.WriteLine("----------------------------------------------------------------------");
@@ -30,6 +30,8 @@ namespace EmpWageComputationProblemWithOOP
                     i = Company.Length;
                 }
             }
+
+
         }
     }
 }
