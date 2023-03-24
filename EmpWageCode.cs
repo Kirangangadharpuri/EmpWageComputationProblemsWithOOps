@@ -14,8 +14,8 @@ namespace EmpWageComputationProblemWithOOP
         {
             void EmpWageBuilder();
         }
-        public class CompanyEmpWage : ParentComputeEmpWage
 
+        public class CompanyEmpWage : ParentComputeEmpWage
         {
             public const int IsFullTime = 1;
             public const int IsPartTime = 2;
@@ -24,6 +24,7 @@ namespace EmpWageComputationProblemWithOOP
             public int EmpWagePerHour;
             public int WorkingDaysPerMonth;
             public int TotalWorkingHours;
+
             public CompanyEmpWage()
             {
                 Console.Write("Enter the Company Name: ");
