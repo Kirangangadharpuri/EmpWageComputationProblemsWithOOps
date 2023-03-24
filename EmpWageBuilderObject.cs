@@ -88,5 +88,6 @@ namespace EmpWageComputationProblemWithOOP
             Console.WriteLine("Total Emp Wage for company per year :" + totalEmpWageForYear);
 
         }
+
     }
 }
